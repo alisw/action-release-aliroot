@@ -1,0 +1,13 @@
+name: 'Release AliRoot'
+description: 'release-aliroot'
+inputs:
+  aliroot-tag:  # id of input
+    description: 'AliRoot tag'
+    required: true
+    default: 'v5-09-XX'
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
+runs:
+  main: 'index.js'
+
